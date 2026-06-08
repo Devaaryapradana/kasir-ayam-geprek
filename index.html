@@ -451,7 +451,7 @@ async function kirim() {
     let tanggal = document.getElementById("tanggal").value;
 
     for (let item of keranjang) {
-      await fetch("https://script.google.com/macros/s/AKfycbx4QAL2ghuwxEUOxX0r1fTfjcTTeForAeGaWMf19JMfi6-CDgVUqDc1-MWpVpXmFyY1/exec", {
+      await fetch("hhttps://script.google.com/macros/s/AKfycbyAGgk5T_XvQXSkP0G9glEOn-0XLzfTR4CH6zd7EEdiXIT0fT23kXVRxOSOKK1VBf3R/exec", {
         method: "POST",
         body: JSON.stringify({
           mode: "transaksi",
@@ -479,7 +479,7 @@ if (mode === "pengeluaran") {
 
   for (let item of keranjangPengeluaran) {
 
-    await fetch("https://script.google.com/macros/s/AKfycbx4QAL2ghuwxEUOxX0r1fTfjcTTeForAeGaWMf19JMfi6-CDgVUqDc1-MWpVpXmFyY1/exec", {
+    await fetch("https://script.google.com/macros/s/AKfycbyAGgk5T_XvQXSkP0G9glEOn-0XLzfTR4CH6zd7EEdiXIT0fT23kXVRxOSOKK1VBf3R/exec", {
       method: "POST",
       body: JSON.stringify({
         mode: "pengeluaran",
